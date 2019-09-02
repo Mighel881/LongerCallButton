@@ -6,6 +6,10 @@
 @property (nonatomic, assign, readwrite) CGRect frame;
 @end
 
+
+
+//Resize And Move Call Button
+
 %hook PHBottomBarButton
 - (void) layoutSubviews {
 	%orig;
@@ -17,6 +21,10 @@
 	self.frame = newFrame;
 }
 %end
+
+
+
+//Move Delete Button
 
 %hook PHHandsetDialerDeleteButton
 - (void) layoutSubviews {
