@@ -9,7 +9,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = LongerCallButton
 
-LongerCallButton_FILES = Tweak.x
+LongerCallButton_FILES = Tweak.xm
 LongerCallButton_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
