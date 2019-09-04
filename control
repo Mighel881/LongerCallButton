@@ -1,7 +1,7 @@
 Package: com.icraze.longercallbutton
 Name: LongerCallButton
 Depends: mobilesubstrate
-Version: 1.0
+Version: 1.2
 Architecture: iphoneos-arm
 Description: Make The Call Button Longer!
 Maintainer: iCraze
