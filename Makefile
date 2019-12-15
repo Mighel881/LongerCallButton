@@ -1,10 +1,4 @@
-THEOS_DEVICE_IP = 127.0.0.1
-THEOS_DEVICE_PORT = 2222
-
-ARCHS = arm64 arm64e
-
-DEBUG = 0
-FINALPACKAGE = 1
+TARGET=simulator:clang:latest:8.0
 
 INSTALL_TARGET_PROCESSES = com.apple.mobilephone
 
